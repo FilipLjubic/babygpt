@@ -1,4 +1,4 @@
-import {IReplicateModel, ReplicateModel} from "../types/types";
+import { IReplicateModel, ReplicateModel } from "../types/types";
 import Replicate from "replicate";
 
 const REPLICATE_API_TOKEN = process.env.REPLICATE_API_TOKEN;
@@ -39,9 +39,11 @@ class ReplicateService {
     public generateImage = async (prompt: string, negative_prompt: string, model: ReplicateModel) => {
         const replicate = new Replicate({
             auth: REPLICATE_API_TOKEN!,
+            fetch: require("cross-fetch"),
+
         });
 
-        const {owner, name, version} = this.REPLICATE_MODELS[model];
+        const { owner, name, version } = this.REPLICATE_MODELS[model];
 
         prompt = model === ReplicateModel.OpenJourney ? `mdjrny-v4 style ${prompt}` :
             model === ReplicateModel.PortraitPlus ? `portrait+ style ${prompt}` : prompt;

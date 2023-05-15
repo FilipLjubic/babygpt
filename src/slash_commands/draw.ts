@@ -1,5 +1,5 @@
-import {AttachmentBuilder, CommandInteractionOptionResolver, SlashCommandBuilder} from "discord.js";
-import {ISlashCommand, ReplicateModel} from "../types/types";
+import { AttachmentBuilder, CommandInteractionOptionResolver, SlashCommandBuilder } from "discord.js";
+import { ISlashCommand, ReplicateModel } from "../types/types";
 import ReplicateService from "../services/ReplicateService";
 
 const command: ISlashCommand = {
@@ -11,12 +11,12 @@ const command: ISlashCommand = {
                 .setDescription("Model use for generate.")
                 .setRequired(true)
                 .addChoices(
-                    {name: "Stable Diffusion", value: ReplicateModel.StableDiffusion},
-                    {name: "Open Journey", value: ReplicateModel.OpenJourney},
-                    {name: "Dream Shaper", value: ReplicateModel.DreamShaper},
-                    {name: "Portrait Plus", value: ReplicateModel.PortraitPlus},
-                    {name: "Anything V3", value: ReplicateModel.AnythingV3},
-                    {name: "Pastel Mix", value: ReplicateModel.PastelMix}
+                    { name: "Stable Diffusion", value: ReplicateModel.StableDiffusion },
+                    { name: "Open Journey", value: ReplicateModel.OpenJourney },
+                    { name: "Dream Shaper", value: ReplicateModel.DreamShaper },
+                    { name: "Portrait Plus", value: ReplicateModel.PortraitPlus },
+                    { name: "Anything V3", value: ReplicateModel.AnythingV3 },
+                    { name: "Pastel Mix", value: ReplicateModel.PastelMix }
                 )
         )
         .addStringOption(option =>
