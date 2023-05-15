@@ -1,22 +1,7 @@
 <a name="readme-top"></a>
 
-<h1 align="center">
-   <a href="https://github.com/shin202/ChatGPT-Discord-Bot/graphs/contributors">
-      <img src="https://img.shields.io/github/contributors/shin202/ChatGPT-Discord-Bot.svg?style=for-the-badge">
-   </a>
-   <a href="https://github.com/shin202/ChatGPT-Discord-Bot/network/members">
-      <img src="https://img.shields.io/github/forks/shin202/ChatGPT-Discord-Bot.svg?style=for-the-badge">
-   </a>
-   <a href="https://github.com/shin202/ChatGPT-Discord-Bot/stargazers">
-      <img src="https://img.shields.io/github/stars/shin202/ChatGPT-Discord-Bot.svg?style=for-the-badge">
-   </a>
-   <a href="https://github.com/shin202/ChatGPT-Discord-Bot/issues">
-      <img src="https://img.shields.io/github/issues/shin202/ChatGPT-Discord-Bot.svg?style=for-the-badge">
-   </a>
-   <a href="https://github.com/shin202/ChatGPT-Discord-Bot/blob/main/LICENSE.txt">
-      <img src="https://img.shields.io/github/license/shin202/ChatGPT-Discord-Bot.svg?style=for-the-badge">
-   </a>
-</h1>
+
+> This is just a fork of shin202/ChatGPT-Discord-Bot
 
 
 
